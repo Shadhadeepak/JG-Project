@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Navbar from "@/Components/Navbar";
+import Footer from "@/Components/Footer";
 
 // Import the Lato font with the required weight
 const lato = Lato({ 

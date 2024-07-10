@@ -16,7 +16,7 @@ const slides = [
     {
       id: 2,
       title: "GST AND IT Filling !!!",
-      description: "GST and income tax together form the backbone of unified taxation in India, creating a single, common market across the nation.",
+      description: "Streamline Your Taxes: Expert GST & IT Return Filing!",
       img: "https://images.pexels.com/photos/8296981/pexels-photo-8296981.jpeg?auto=compress&cs=tinysrgb&w=600",
       url: "/",
       bg: "bg-gradient-to-r from-pink-50 to-blue-50",
@@ -60,7 +60,7 @@ const Slider = () => {
               <h2 className=" font-bold text-sm lg:text-xl 2xl:text-2xl text-left ml-8 text-wrap ">
                 {slide.description}
               </h2>
-              <Link href={slide.url}>
+              <Link href='contact'>
                 <button className="rounded-md bg-[#FC4100] text-white font-bold py-3 px-4 ">
                   BOOK APPOINMENT!
                 </button>

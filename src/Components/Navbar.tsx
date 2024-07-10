@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Phone Number  */}
         <div className="flex   w-1/2 gap-8">
           <div className="flex items-center justify-center gap-3"><FaPhoneAlt color='red' size={16} className='' /> +91 95515 50815 / 9840795498</div>
-          <div className="flex items-center justify-center gap-3"><FaMailBulk color='red' size={16} />jgtaxconsultant2015@gmail.com</div>
+          <div className="flex items-center justify-center gap-3"><FaMailBulk color='red' size={16} /><Link href='jgtaxconsultant2015@gmail.com'>jgtaxconsultant2015@gmail.com</Link> </div>
         </div>
         {/* Social Link */}
         <div className=" w-1/2 flex justify-end gap-8 items-center">
@@ -45,16 +45,16 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col  ">
             <div >
-              <Link href='/' className='flex items-center relative z-10'onClick={()=>{setopen(!open) ; setopen1(false) ; setopen2(false)}}  >
+              <Link href='' className='flex items-center relative z-10'onClick={()=>{setopen(!open) ; setopen1(false) ; setopen2(false)}}  >
                 START A NEW COMPANY  <MdKeyboardArrowDown size={20} className=''  />
               </Link>
             </div>
             {open && (
               <div className="  ">
                 <ul className='flex mt-3  absolute z-20  flex-col pl-2 gap-3 text-gray-100 rounded-md bg-black opacity-85 py-8 px-2'>
-                  <Link href='/ ' className='hover:opacity-50'>Sole Proprietorship <br /> Registration</Link>
-                  <Link href='/  ' className='hover:opacity-50'>Partnership Firm  <br /> Registration </Link>
-                  <Link href='/ ' className='hover:opacity-50'>Incorporation</Link>
+                  <Link href='contact' className='hover:opacity-50'>Sole Proprietorship <br /> Registration</Link>
+                  <Link href='contact' className='hover:opacity-50'>Partnership Firm  <br /> Registration </Link>
+                  <Link href='contact' className='hover:opacity-50'>Incorporation</Link>
                 </ul>
               </div>
             )}
@@ -68,13 +68,13 @@ const Navbar = () => {
             {open1 && (
                <div className="  ">
                <ul className='flex mt-3  absolute z-20   flex-col pl-2 gap-2 text-gray-100 rounded-md bg-black opacity-85 py-8 px-2 z-0'>
-                 <Link href='/ ' className='hover:opacity-50'>GST Registration</Link>
-                 <Link href='/ ' className='hover:opacity-50'>Income Tax Registration</Link>
-                 <Link href='/ ' className='hover:opacity-50'>ESI Registration</Link>
-                 <Link href='/  ' className='hover:opacity-50'>PF Registration </Link>
-                 <Link href='/  ' className='hover:opacity-50'>IE Code Registration </Link>
-                 <Link href='/  ' className='hover:opacity-50'>FSSAI Registration </Link>
-                 <Link href='/ ' className='hover:opacity-50'>Trade Mark  Registration  </Link>
+                 <Link href='contact' className='hover:opacity-50'>GST Registration</Link>
+                 <Link href='contact' className='hover:opacity-50'>Income Tax Registration</Link>
+                 <Link href='contact' className='hover:opacity-50'>ESI Registration</Link>
+                 <Link href='contact' className='hover:opacity-50'>PF Registration </Link>
+                 <Link href='contact' className='hover:opacity-50'>IE Code Registration </Link>
+                 <Link href='contact' className='hover:opacity-50'>FSSAI Registration </Link>
+                 <Link href='contact' className='hover:opacity-50'>Trade Mark  Registration  </Link>
                </ul>
              </div>
             )}
@@ -88,14 +88,14 @@ const Navbar = () => {
             {open2 && (
                <div className=" ">
                <ul className='flex mt-3 flex-col absolute z-20  gap-2 text-gray-100 rounded-md bg-black opacity-85 py-8 px-2 z-0'>
-                 <Link href='/ ' className='hover:opacity-50'>3B Return</Link>
-                 <Link href='/ ' className='hover:opacity-50'>GSTR1 Filling</Link>
-                 <Link href='/ ' className='hover:opacity-50'>GSTR2 Filling</Link>
-                 <Link href='/  ' className='hover:opacity-50'>Eway Bill</Link>
-                 <Link href='/  ' className='hover:opacity-50'>GST Annual Return</Link>
-                 <Link href='/  ' className='hover:opacity-50'>Income Tax Return </Link>
-                 <Link href='/ ' className='hover:opacity-50'>TDS Return </Link> 
-                 <Link href='/ ' className='hover:opacity-50'>ESI & PF Return </Link>   
+                 <Link href='contact' className='hover:opacity-50'>3B Return</Link>
+                 <Link href='contact' className='hover:opacity-50'>GSTR1 Filling</Link>
+                 <Link href='contact' className='hover:opacity-50'>GSTR2 Filling</Link>
+                 <Link href='contact' className='hover:opacity-50'>Eway Bill</Link>
+                 <Link href='contact' className='hover:opacity-50'>GST Annual Return</Link>
+                 <Link href='contact' className='hover:opacity-50'>Income Tax Return </Link>
+                 <Link href='contact' className='hover:opacity-50'>TDS Return </Link> 
+                 <Link href='contact' className='hover:opacity-50'>ESI & PF Return </Link>   
                    
                </ul>
              </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
             </Link>
           </div> */}
           <div className="">
-            <Link href='/' className='flex items-center'>
+            <Link href='contact' className='flex items-center'>
               CONTACT
             </Link>
           </div>
@@ -130,16 +130,16 @@ const Navbar = () => {
             {
               open3&&
               (
-                <div className="w-[100vw] h-[100vh] text-white bg-black">
+                <div className="w-[100vw] h-[100vh] flex items-center justify-center text-white bg-black">
 
-                    <ul className='flex flex-col absolute z-20 h-2/3 justify-between items-start pl-5 pt-5'>
-                      <Link href='/' className=''>HOME</Link>
-                      <Link href='/'>START A NEW COMPANY</Link>
-                      <Link href='/'>REGISTRATION SERVICES</Link>
-                      <Link href='/'>GST</Link>
-                      <Link href='/'>TAX RETURN</Link>
-                      <Link href='/'>CONTACT</Link>
-                      <Link href='/'>LOCATION</Link>
+                    <ul className='flex flex-col absolute z-20  justify-center gap-8 items-center '>
+                      <Link href='/'  className='' onClick={()=>setopen3(false)}>HOME</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)}   >START A NEW COMPANY</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)}  >REGISTRATION SERVICES</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)} >GST</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)} >TAX RETURN</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)} >CONTACT</Link>
+                      <Link href='contact' onClick={()=>setopen3(false)} >LOCATION</Link>
                     </ul>
                 </div>
               )
