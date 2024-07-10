@@ -71,12 +71,12 @@ const clients: Client[] = [
 
 const OurClient: React.FC = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       <h1 className="text-4xl font-bold text-center mb-8">Our Top Clients</h1>
-      <div className="overflow-x-auto hide-scrollbar">
-        <div className="flex space-x-4 py-2">
+      <div className="overflow-x-auto hide-scrollbar  ">
+        <div className="flex space-x-4 py-2 ">
           {clients.map((client) => (
-            <div key={client.id} className="bg-white p-6 rounded-lg shadow-md py-4 flex-shrink-0 w-72">
+            <div key={client.id} className="bg-white p-6 rounded-lg shadow-md py-4 flex-shrink-0 w-72 hover:shadow-2xl">
               <div className="flex justify-center  mb-4">
                 <Image
                   src={client.logo}

@@ -64,7 +64,7 @@ const ContactPage = () => {
             <br />
             <h4 className="text-[20px] md:text-[26px] items-center font-semibold flex"> <FaPhoneAlt className="flex"  color="red" size={20}/> &nbsp; &nbsp;Call At : 9551550815</h4>
             <br />
-            <h4 className="text-[20px] md:text-[26px] items-center font-semibold flex"> <FaMailBulk className="flex"  color="red" size={20}/> &nbsp; &nbsp; Mail :  jgtaxconsultant2015@gmail.com</h4>
+            <h4 className="text-[20px] md:text-[26px] items-center font-semibold flex"> <FaMailBulk className="flex"  color="red" size={20}/> &nbsp; &nbsp; Mail:jgtaxconsultant2015@gmail.com</h4>
 
             
           </div>

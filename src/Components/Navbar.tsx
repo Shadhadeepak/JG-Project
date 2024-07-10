@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
             {open1 && (
                <div className="  ">
-               <ul className='flex mt-3  absolute z-20   flex-col pl-2 gap-2 text-gray-100 rounded-md bg-black opacity-85 py-8 px-2 z-0'>
+               <ul className='flex mt-3  absolute z-20   flex-col pl-2 gap-2 text-gray-100 rounded-md bg-black opacity-85 py-8 px-2 '>
                  <Link href='contact' className='hover:opacity-50'>GST Registration</Link>
                  <Link href='contact' className='hover:opacity-50'>Income Tax Registration</Link>
                  <Link href='contact' className='hover:opacity-50'>ESI Registration</Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col  ">
             <div className=''>
-              <Link href='/' className='flex items-center relative z-10' onClick={()=>{setopen2(!open2) ;setopen(false) ; setopen1(false)}} >
+              <Link href='' className='flex items-center relative z-10' onClick={()=>{setopen2(!open2) ;setopen(false) ; setopen1(false)}} >
               GST & IT FILLING SERVICE <MdKeyboardArrowDown size={20} className='' />
               </Link>
             </div>

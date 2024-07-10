@@ -57,13 +57,13 @@ const WhatWeDo: React.FC = () => {
             key={service.id}
             className="relative overflow-hidden rounded-lg shadow-lg group h-64 "
           >
-            <div className="absolute inset-0 ">
+            <div className="absolute inset-0  ">
               <Image
                 src={service.imageUrl}
                 alt={service.title}
                 layout="fill"
                 objectFit="cover"
-                className="transition-transform duration-300 ease-in-out transform group-hover:scale-110"
+                className="transition-transform      duration-300 ease-in-out transform group-hover:scale-110 hover:bg-black hover:z-20   "
               />
             </div>
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4 text-center">
