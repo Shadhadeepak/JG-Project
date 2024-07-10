@@ -61,7 +61,7 @@ const Navbar = () => {
           </div>
           <div className="flex flex-col ">
             <div >
-              <Link href='/' className='flex items-center relative z-10' onClick={()=>{setopen1(!open1) ; setopen(false);setopen2(false)}} >
+              <Link href='' className='flex items-center relative z-10' onClick={()=>{setopen1(!open1) ; setopen(false);setopen2(false)}} >
               REGISTRATION SERVICES  <MdKeyboardArrowDown size={20} className='' />
               </Link>
             </div>

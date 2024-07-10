@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 
 // Import the Lato font with the required weight
-const lato = Lato({ 
+const lato = Roboto({ 
   weight: ["400", "700"], // Specify the weights you need
   subsets: ["latin"] 
 });

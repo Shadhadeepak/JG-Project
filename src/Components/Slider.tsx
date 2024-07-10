@@ -41,7 +41,7 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="h-[calc(100vh-32px)] overflow-x-hidden mt-[145px] ">
+    <div className=" h-[calc(100vh-32px)] overflow-x-hidden mt-[145px] ">
       <div
         className="w-max h-full flex transition-all ease-in-out duration-1000 overflow-x-hidden"
         style={{ transform: `translateX(-${current * 100}vw)` }}
