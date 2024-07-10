@@ -8,7 +8,7 @@ const About: React.FC = () => {
     'https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=600';
 
   return (
-    <div className="container mx-auto px-4 py-8 md:px-0">
+    <div className="container md:px-10 mx-auto px-4 py-8 md:px-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Side */}
         <div className="relative h-64 md:h-full">
