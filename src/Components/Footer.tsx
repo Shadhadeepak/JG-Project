@@ -7,7 +7,7 @@ import { FaLocationPin } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <div className=' bg-[#f7f6f5c8] opacity-100 shadow-md'>
+    <div className='md: pl-8 bg-[#f7f6f5c8] opacity-100 shadow-md'>
       <div className='flex flex-col  lg:flex-row xl:flex-row px-5  xl:gap-14 lg:gap-14'>
 
         {/* LEFT */}

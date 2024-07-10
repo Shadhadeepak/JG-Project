@@ -72,7 +72,7 @@ const clients: Client[] = [
 const OurClient: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Our Clients</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">Our Top Clients</h1>
       <div className="overflow-x-auto hide-scrollbar">
         <div className="flex space-x-4 py-2">
           {clients.map((client) => (
