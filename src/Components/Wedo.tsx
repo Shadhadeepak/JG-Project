@@ -57,7 +57,7 @@ const WhatWeDo: React.FC = () => {
             key={service.id}
             className="relative overflow-hidden rounded-lg shadow-lg group h-64 "
           >
-            <div className="absolute inset-0  ">
+            <div className="absolute inset-0" >
               <Image
                 src={service.imageUrl}
                 alt={service.title}

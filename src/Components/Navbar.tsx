@@ -113,6 +113,11 @@ const Navbar = () => {
               CONTACT
             </Link>
           </div>
+          <div className="">
+            <Link href='Location' className='flex items-center'>
+              LOCATION
+            </Link>
+          </div>
         </div>
       </div>
       {/* mobile */}
@@ -139,7 +144,7 @@ const Navbar = () => {
                       <Link href='contact' onClick={()=>setopen3(false)} >GST</Link>
                       <Link href='contact' onClick={()=>setopen3(false)} >TAX RETURN</Link>
                       <Link href='contact' onClick={()=>setopen3(false)} >CONTACT</Link>
-                      <Link href='contact' onClick={()=>setopen3(false)} >LOCATION</Link>
+                      <Link href='Location' onClick={()=>setopen3(false)} >LOCATION</Link>
                     </ul>
                 </div>
               )
